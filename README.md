@@ -20,6 +20,8 @@ Refer to the [Angular CLI](https://cli.angular.io/) documentation for detailed i
 
 Download the [zip file](/PBGUX/ng-starter-app/archive/master.zip) of this repo to your computer, then follow instructions below to install dependencies and run the application.
 
+Optionally install [Prettier](https://prettier.io/), [EditorConfig](http://editorconfig.org/), [HtmlHint](http://htmlhint.com/) and [Stylelint](https://stylelint.io/) for your code editor.
+
 ## Install Dependencies
 
 From the root folder folder, run
