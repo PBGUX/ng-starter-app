@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HeaderComponent } from '@app/shared/header/header.component';
-import { FooterComponent } from '@app/shared/footer/footer.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
-import { HomeComponent } from '@app/home/home.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
