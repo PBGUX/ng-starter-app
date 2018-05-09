@@ -1,0 +1,26 @@
+{
+  "name": "ng-starer-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "cd client && npm start",
+    "dependencies": "(npm install) && (cd client && npm install)",
+    "build": "cd client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://st016lo@dbygitmsprod.pbi.global.pvt/design-system/ng-designsystem-sample-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "1.12.1",
+    "prettier-stylelint": "0.4.2",
+    "stylelint": "9.2.0",
+    "stylelint-config-standard": "18.2.0",
+    "stylelint-config-idiomatic-order": "5.0.0"
+  }
+}
