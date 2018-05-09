@@ -8,7 +8,7 @@ You can run this project online in a browser using [Stackblitz](http://stackblit
 
 ## Development Environment
 
-Download and install [Node.js](https://nodejs.org) for your platform, version 8.1.0 or higher, Node Package Manager (npm) will also be installed.(**Note:** we also recommend using Node Version Manager ([nvm](https://github.com/creationix/nvm)) )
+Download and install [Node.js](https://nodejs.org) for your platform, version 8.1.0 or higher, Node Package Manager, [npm](https://www.npmjs.com/), will also be installed.(**Note:** we also recommend using Node Version Manager, [nvm](https://github.com/creationix/nvm) )
 
 Install Angular CLI globally by running
 
@@ -28,7 +28,7 @@ From the root folder folder, run
 npm run dependencies
 ```
 
-which will install dependencies in the root and client folders (**Note:** the server folder is a placeholder, see the README.md in the server folder ).
+which will install dependencies in the root and client folders (**Note:** the server folder is a placeholder, see the README.md in the server folder).
 
 ## Run Application
 
