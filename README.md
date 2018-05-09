@@ -2,9 +2,9 @@
 
 This project was generated with [Angular CLI](https://cli.angular.io/) version 6.0.0.
 
-## Stackblitz
+<!-- ## Stackblitz
 
-You can run this project online in a browser using [Stackblitz](http://stackblitz.io), [click here](https://stackblitz.com/github/PBGUX/ng-starter-app/tree/master/client) and start editing code!
+You can run this project online in a browser using [Stackblitz](http://stackblitz.io), [click here](https://stackblitz.com/github/PBGUX/ng-starter-app/tree/master/client) and start editing code! -->
 
 ## Development Environment
 
