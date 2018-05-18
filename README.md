@@ -27,7 +27,7 @@ Optionally install [Prettier](https://prettier.io/), [EditorConfig](http://edito
 From the root folder folder, run
 
 ```
-npm run dependencies
+npm run setup
 ```
 
 which will install dependencies in the root and client folders (**Note:** the server folder is a placeholder, see the README.md in the server folder).
