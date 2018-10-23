@@ -6,6 +6,7 @@
 - Update package versions
 - Update header/footer html for accessibility
 - Add `role="main"` to Home component for accessibility
+- Add header shadow directive
 
 ## 1.0.0-beta.9 - September 17, 2018
 
