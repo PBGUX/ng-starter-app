@@ -1,5 +1,4 @@
-import { Directive, HostBinding } from '@angular/core';
-import { OnInit, OnDestroy } from '@angular/core/src/metadata/lifecycle_hooks';
+import { Directive, HostBinding, OnInit, OnDestroy } from '@angular/core';
 
 @Directive({
     selector: '[appHeaderShadow]'
