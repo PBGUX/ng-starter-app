@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.0.0 - November 13, 2018
+
+- Update to Design System v5.0.0
+
 ## 1.0.0-beta.10 - October 23, 2018
 
 - Update to Design System beta.10
