@@ -1,6 +1,6 @@
 {
   "name": "ng-starter-app",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.html",
   "scripts": {
@@ -17,9 +17,9 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "prettier": "1.15.1",
+    "prettier": "1.16.4",
     "prettier-stylelint": "0.4.2",
-    "stylelint": "9.9.0",
+    "stylelint": "9.10.1",
     "stylelint-config-standard": "18.2.0",
     "stylelint-config-idiomatic-order": "6.2.0"
   }

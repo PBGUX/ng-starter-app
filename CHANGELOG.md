@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.1.0 - February 14 ❤, 2019
+
+- update to Angular 7.2.4
+
 ## 1.0.0 - November 13, 2018
 
 - Update to Design System v5.0.0
