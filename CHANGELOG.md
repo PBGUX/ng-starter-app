@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.1.1 - March 12, 2019
+
+- FIX: the RouterModule was not imported into the SharedModule, so routerLinks did not work
+
 ## 1.1.0 - February 14 ❤, 2019
 
 - update to Angular 7.2.4
