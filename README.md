@@ -4,9 +4,11 @@ This project was generated with [Angular CLI](https://cli.angular.io/) version 6
 
 ## To use this as a starter for your projects
 
+### 1. Download the zip file
+
 Go to the [Releases page](https://github.com/PBGUX/ng-starter-app/releases) of this repository and download the zip file of the latest release to your computer. Unzip the file and `cd` into the directory.
 
-## Install Dependencies
+### 2. Install dependencies
 
 From the root folder folder, run
 ```
@@ -14,7 +16,7 @@ npm run setup
 ```
 which will install dependencies in the root and client folders (**Note:** the server folder is a placeholder, see the README.md in the server folder).
 
-## Run Application
+### 3. Run the application
 
 From the root folder, run
 ```
@@ -22,7 +24,7 @@ npm start
 ```
 then open a browser at [localhost:4200](http://localhost:4200). The application will automatically reload when changes to source files are saved.
 
-## Build Application
+### 4. Build the application
 
 From the root folder, run
 ```
