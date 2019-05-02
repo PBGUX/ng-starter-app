@@ -10,7 +10,7 @@ Go to the [Releases page](https://github.com/PBGUX/ng-starter-app/releases) of t
 
 ### 2. Install dependencies
 
-From the root folder folder, run
+In  this root folder, run
 ```
 npm run setup
 ```
@@ -18,7 +18,7 @@ which will install dependencies in the root and client folders (**Note:** the se
 
 ### 3. Run the application
 
-From the root folder, run
+In the root folder, run
 ```
 npm start
 ```
@@ -26,7 +26,7 @@ then open a browser at [localhost:4200](http://localhost:4200). The application 
 
 ### 4. Build the application
 
-From the root folder, run
+In the root folder, run
 ```
 npm run build
 ```
