@@ -3,6 +3,7 @@
 ## 1.2.0 - May 1, 2019
 
 - Update to Design System v5.1.0
+- Update several libraries for security issues
 
 ## 1.1.1 - March 12, 2019
 
