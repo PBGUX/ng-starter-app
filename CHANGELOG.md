@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.2.0 - May 1, 2019
+
+- Update to Design System v5.1.0
+
 ## 1.1.1 - March 12, 2019
 
 - FIX: the RouterModule was not imported into the SharedModule, so routerLinks did not work
