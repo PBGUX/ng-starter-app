@@ -23,7 +23,7 @@
     "@angular/router": "7.2.14",
     "@ngx-loading-bar/http-client": "3.0.0",
     "@ngx-loading-bar/router": "3.0.0",
-    "bootstrap": "4.1.3",
+    "bootstrap": "^4.3.1",
     "core-js": "2.5.7",
     "jquery": "^3.4.1",
     "pb-design-system": "5.1.0",

@@ -1,12 +1,12 @@
 {
-  "extends": ["stylelint-config-idiomatic-order", "./node_modules/prettier-stylelint/config.js"],
+  "plugins": ["stylelint-prettier"],
+  "extends": ["stylelint-prettier/recommended"],
   "rules": {
     "at-rule-empty-line-before": null,
     "at-rule-no-unknown": null,
     "declaration-colon-newline-after": null,
     "declaration-empty-line-before": null,
     "max-empty-lines": 4,
-    "string-quotes": "single",
     "indentation": 2,
     "no-eol-whitespace": [
       true,
@@ -25,6 +25,13 @@
     "no-missing-end-of-source-newline": null,
     "no-descending-specificity": null,
     "no-duplicate-selectors": null,
-    "unit-whitelist": ["em", "rem", "s", "px", "%", "deg", "ms", "vh", "vw", "dppx", "dpi", "fr"]
+    "unit-whitelist": ["em", "rem", "s", "px", "%", "deg", "ms", "vh", "vw", "dppx", "dpi", "fr"],
+    "prettier/prettier": [
+      true,
+      {
+        "singleQuote": false,
+        "tabWidth": 2
+      }
+    ]
   }
 }
