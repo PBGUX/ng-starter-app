@@ -5,7 +5,9 @@ import { Component, OnInit, HostBinding } from '@angular/core';
   templateUrl: './footer.component.html'
 })
 export class FooterComponent implements OnInit {
-  @HostBinding('class.site-footer') true;
+  @HostBinding('class.site-footer')
+  @HostBinding('class.fixed-bottom')
+  true;
   private startYear = 2018;
   public date: string;
 
