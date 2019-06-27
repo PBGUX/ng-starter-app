@@ -29,6 +29,7 @@
     "@ngx-loading-bar/router": "4.2.0",
     "bootstrap": "4.3.1",
     "core-js": "2.5.7",
+    "d3": "5.9.4",
     "jquery": "3.4.1",
     "pb-design-system": "6.0.0-beta.1.0.1",
     "popper.js": "1.14.7",
