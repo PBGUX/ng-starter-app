@@ -8,10 +8,10 @@ export class HeaderComponent implements OnInit {
   @HostBinding('class.site-header')
   true;
 
-  @ViewChild('searchLink')
+  @ViewChild('searchLink', { static: true })
   searchLink: ElementRef;
 
-  @ViewChild('searchInput')
+  @ViewChild('searchInput', { static: true })
   searchInput: ElementRef;
 
   public searchActive: boolean;
