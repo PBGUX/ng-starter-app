@@ -30,7 +30,7 @@
     "core-js": "2.5.7",
     "d3": "5.9.7",
     "jquery": "3.4.1",
-    "pb-design-system": "6.0.0-beta.1.0.1",
+    "pb-design-system": "git+https://github.com/PBGUX/pb-design-system#34293a2",
     "popper.js": "1.14.7",
     "rxjs": "6.5.2",
     "tslib": "1.9.3",
