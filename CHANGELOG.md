@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.0.0 - November 13, 2019
+
+- Update to Design System 6.0.2
+
 ## 1.2.0 - May 1, 2019
 
 - Update to Design System v5.1.0
