@@ -8,10 +8,10 @@ export class HeaderComponent implements OnInit {
   @HostBinding('class.site-header')
   true;
 
-  @ViewChild('searchLink', { static: true })
+  @ViewChild('searchLink', { read: true, static: false })
   searchLink: ElementRef;
 
-  @ViewChild('searchInput', { static: true })
+  @ViewChild('searchInput', { read: true, static: false })
   searchInput: ElementRef;
 
   public searchActive: boolean;
@@ -20,10 +20,9 @@ export class HeaderComponent implements OnInit {
     this.searchActive = false;
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
-  toggleSearch = function ($event: Event) {
+  toggleSearch = function($event: Event) {
     $event.preventDefault();
 
     if (this.searchActive) {
