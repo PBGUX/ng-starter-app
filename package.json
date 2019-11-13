@@ -1,7 +1,7 @@
 {
   "name": "ng-starter-app",
-  "version": "2.0.0-beta.2",
-  "description": "PB starter application with DS 6.0 beta",
+  "version": "2.0.0",
+  "description": "PB starter application with DS 6.0",
   "main": "index.html",
   "scripts": {
     "start": "cd client && npm start",
@@ -16,21 +16,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "postcss": "7.0.17",
-    "@typescript-eslint/eslint-plugin": "2.1.0",
-    "@typescript-eslint/eslint-plugin-tslint": "2.1.0",
-    "@typescript-eslint/parser": "2.1.0",
-    "eslint": "6.3.0",
-    "eslint-config-prettier": "^6.2.0",
-    "eslint-import-resolver-typescript": "^1.1.1",
+    "postcss": "7.0.21",
+    "@typescript-eslint/eslint-plugin": "2.7.0",
+    "@typescript-eslint/eslint-plugin-tslint": "2.7.0",
+    "@typescript-eslint/parser": "2.7.0",
+    "eslint": "6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-json": "^1.4.0",
-    "eslint-plugin-prettier": "^3.1.0"
+    "eslint-plugin-json": "^2.0.1",
+    "eslint-plugin-prettier": "^3.1.1"
   },
   "devDependencies": {
-    "prettier": "1.18.2",
+    "prettier": "1.19.1",
     "stylelint-prettier": "1.1.1",
-    "stylelint": "10.1.0",
-    "stylelint-config-prettier": "5.2.0"
+    "stylelint": "11.1.1",
+    "stylelint-config-prettier": "6.0.0"
   }
 }
