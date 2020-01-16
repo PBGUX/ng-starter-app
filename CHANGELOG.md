@@ -1,5 +1,10 @@
 # Release Notes
 
+## 2.0.1 - January 16, 2020
+
+- Fix SCSS paths: import all CSS files from node modules to `styles.scss`, not `angular.json`
+- Added boilerplate to home component html
+
 ## 2.0.0 - November 13, 2019
 
 - Update to Design System 6.0.2
