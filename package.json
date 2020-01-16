@@ -16,21 +16,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "postcss": "7.0.21",
-    "@typescript-eslint/eslint-plugin": "2.7.0",
-    "@typescript-eslint/eslint-plugin-tslint": "2.7.0",
-    "@typescript-eslint/parser": "2.7.0",
-    "eslint": "6.6.0",
-    "eslint-config-prettier": "^6.5.0",
-    "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-json": "^2.0.1",
-    "eslint-plugin-prettier": "^3.1.1"
+    "@typescript-eslint/eslint-plugin": "2.15.0",
+    "@typescript-eslint/eslint-plugin-tslint": "2.15.0",
+    "@typescript-eslint/parser": "2.15.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-import-resolver-typescript": "2.0.0",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-json": "2.0.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "postcss": "7.0.26",
+    "typescript": "3.4.5"
   },
   "devDependencies": {
     "prettier": "1.19.1",
-    "stylelint-prettier": "1.1.1",
-    "stylelint": "11.1.1",
-    "stylelint-config-prettier": "6.0.0"
+    "stylelint-prettier": "1.1.2",
+    "stylelint": "12.0.1",
+    "stylelint-config-prettier": "8.0.0"
   }
 }

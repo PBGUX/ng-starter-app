@@ -4,5 +4,7 @@
 @import '../node_modules/pb-design-system/sass/variables';
 @import '../node_modules/pb-design-system/sass/mixins';
 
-// project imports
-@import 'sample';
+@import '../node_modules/pb-design-system/dist/css/designsystem.css';
+
+// your project imports, add as many as you need
+@import '../src/sass/sample';
