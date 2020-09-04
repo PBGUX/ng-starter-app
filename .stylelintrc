@@ -1,6 +1,10 @@
 {
-  "plugins": ["stylelint-prettier"],
-  "extends": ["stylelint-prettier/recommended"],
+  "plugins": [
+    "stylelint-prettier"
+  ],
+  "extends": [
+    "stylelint-prettier/recommended"
+  ],
   "rules": {
     "at-rule-empty-line-before": null,
     "at-rule-no-unknown": null,
@@ -11,7 +15,9 @@
     "no-eol-whitespace": [
       true,
       {
-        "ignore": ["empty-lines"]
+        "ignore": [
+          "empty-lines"
+        ]
       }
     ],
     "number-leading-zero": null,
@@ -25,11 +31,24 @@
     "no-missing-end-of-source-newline": null,
     "no-descending-specificity": null,
     "no-duplicate-selectors": null,
-    "unit-whitelist": ["em", "rem", "s", "px", "%", "deg", "ms", "vh", "vw", "dppx", "dpi", "fr"],
+    "unit-whitelist": [
+      "em",
+      "rem",
+      "s",
+      "px",
+      "%",
+      "deg",
+      "ms",
+      "vh",
+      "vw",
+      "dppx",
+      "dpi",
+      "fr"
+    ],
     "prettier/prettier": [
       true,
       {
-        "singleQuote": false,
+        "singleQuote": true,
         "tabWidth": 2
       }
     ]
