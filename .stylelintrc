@@ -28,6 +28,7 @@
     "selector-pseudo-element-colon-notation": "double",
     "selector-type-no-unknown": null,
     "string-no-newline": null,
+    "string-quotes": "single",
     "no-missing-end-of-source-newline": null,
     "no-descending-specificity": null,
     "no-duplicate-selectors": null,
