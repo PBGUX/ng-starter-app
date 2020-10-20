@@ -5,7 +5,8 @@ import { NgModule } from '@angular/core';
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
 import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
 
-import { AppComponent, AppRoutingModule } from '@app/index';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
 
 import { SharedModule } from '@app/shared/shared.module';
 
