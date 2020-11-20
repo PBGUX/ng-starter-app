@@ -1,5 +1,9 @@
 # Release Notes
 
+## 2.5.0 = November 20, 2020
+
+- Updated to use Design System 6.5.0
+
 ## 2.0.1 - January 16, 2020
 
 - Fix SCSS paths: import all CSS files from node modules to `styles.scss`, not `angular.json`
