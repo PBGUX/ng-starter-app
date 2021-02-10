@@ -4,7 +4,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from '@app/shared/footer/footer.component';
 import { HeaderComponent } from '@app/shared/header/header.component';
-import { PbdsHeaderShadowModule, PbdsPageTitleModule } from 'pb-design-system';
+import { PbdsHeaderShadowModule } from 'pb-design-system/header-shadow';
+import { PbdsPageTitleModule } from 'pb-design-system/page-title';
 
 @NgModule({
   imports: [CommonModule, FormsModule, ReactiveFormsModule, RouterModule, PbdsHeaderShadowModule, PbdsPageTitleModule],
@@ -16,7 +17,7 @@ import { PbdsHeaderShadowModule, PbdsPageTitleModule } from 'pb-design-system';
     ReactiveFormsModule,
     CommonModule,
     PbdsHeaderShadowModule,
-    PbdsPageTitleModule
-  ]
+    PbdsPageTitleModule,
+  ],
 })
 export class SharedModule {}
