@@ -1,6 +1,10 @@
 # Release Notes
 
-## 2.5.0 = November 20, 2020
+## 2.6.0 - March 2, 2021
+
+- Updated to use Design System 6.6.2
+
+## 2.5.0 - November 20, 2020
 
 - Updated to use Design System 6.5.0
 
