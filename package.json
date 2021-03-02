@@ -1,6 +1,6 @@
 {
   "name": "ng-starter-app",
-  "version": "2.5.1",
+  "version": "2.6.0",
   "description": "PB starter application with DS 6.5",
   "main": "index.html",
   "scripts": {
@@ -18,29 +18,29 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "4.5.0",
-    "@typescript-eslint/eslint-plugin-tslint": "4.5.0",
-    "@typescript-eslint/parser": "4.5.0",
-    "eslint": "7.11.0",
-    "eslint-config-prettier": "6.13.0",
-    "eslint-import-resolver-typescript": "2.3.0",
+    "@typescript-eslint/eslint-plugin": "4.16.1",
+    "@typescript-eslint/eslint-plugin-tslint": "4.16.1",
+    "@typescript-eslint/parser": "4.16.1",
+    "eslint": "7.21.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-import-resolver-typescript": "2.4.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-json": "2.1.2",
-    "eslint-plugin-prettier": "3.1.4",
-    "postcss": "8.1.2",
+    "eslint-plugin-prettier": "3.3.1",
+    "postcss": "8.2.6",
     "postcss-sass": "0.4.4",
     "tslint": "6.1.3",
-    "typescript": "4.0.3"
+    "typescript": "4.1.5"
   },
   "devDependencies": {
-    "autoprefixer": "10.0.1",
-    "postcss-cli": "8.1.0",
-    "prettier": "2.1.2",
-    "stylelint": "13.7.2",
+    "autoprefixer": "10.2.4",
+    "postcss-cli": "8.3.1",
+    "prettier": "2.2.1",
+    "stylelint": "13.11.0",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-recommended-scss": "4.2.0",
-    "stylelint-prettier": "1.1.2",
-    "stylelint-scss": "3.18.0"
+    "stylelint-prettier": "1.2.0",
+    "stylelint-scss": "3.19.0"
   },
   "browserslist": [
     ">0.5% in US, not IE 11"
