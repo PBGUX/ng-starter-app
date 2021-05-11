@@ -1,6 +1,6 @@
 {
   "name": "ng-starter-app",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "description": "PB starter application with DS 6.6",
   "main": "index.html",
   "scripts": {
