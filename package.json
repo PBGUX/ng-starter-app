@@ -1,7 +1,7 @@
 {
   "name": "ng-starter-app",
-  "version": "2.6.3",
-  "description": "PB starter application with DS 6.6",
+  "version": "2.7.0",
+  "description": "PB starter application with DS 6.7",
   "main": "index.html",
   "scripts": {
     "start": "cd client && npm start",
