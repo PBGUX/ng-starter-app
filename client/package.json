@@ -33,7 +33,7 @@
     "core-js": "3.19.1",
     "d3": "7.1.1",
     "jquery": "3.6.0",
-    "pb-design-system": "6.8.0",
+    "pb-design-system": "6.8.4-beta.1",
     "popper.js": "1.16.1",
     "rxjs": "6.6.7",
     "topojson-client": "3.1.0",
