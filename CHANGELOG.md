@@ -1,5 +1,11 @@
 # Release Notes
 
+## 2.9.0 – January 3, 2022
+
+- Changed app.component.html to use new "sticky footer" as available in DS 6.8.4+
+- Updated to Angular 13
+- Updated ng-bootstrap to 10.0.0
+
 ## 2.6.0 - March 2, 2021
 
 - Updated to use Design System 6.6.2

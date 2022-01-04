@@ -1,12 +1,11 @@
-import { Component, OnInit, HostBinding, ViewChild, ElementRef } from '@angular/core';
+import { Component, ElementRef, HostBinding, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-header',
-  templateUrl: './header.component.html'
+  templateUrl: './header.component.html',
 })
 export class HeaderComponent implements OnInit {
-  @HostBinding('class.site-header')
-  true;
+  @HostBinding('class.site-header') true;
 
   @ViewChild('searchLink', { read: true })
   searchLink: ElementRef;
@@ -22,7 +21,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {}
 
-  toggleSearch = function($event: Event) {
+  toggleSearch = function ($event: Event) {
     $event.preventDefault();
 
     if (this.searchActive) {

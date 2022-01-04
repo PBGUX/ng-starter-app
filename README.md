@@ -1,8 +1,6 @@
-# Starter App
+# PBDS Angular Starter App
 
-This project was generated with [Angular CLI](https://cli.angular.io/) version 10.1.0.
-
-## To use this as a starter for your projects
+## To use this as a starter for your projects:
 
 ### 1. Download the zip file
 
