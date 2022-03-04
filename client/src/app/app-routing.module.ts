@@ -11,6 +11,10 @@ const routes: Routes = [
     loadChildren: () => import('./item1/item1.module').then((m) => m.Item1Module),
   },
   {
+    path: 'accessibility',
+    loadChildren: () => import('./accessibility/accessibility.module').then((m) => m.AccessibilityModule),
+  },
+  {
     path: '',
     redirectTo: '/home',
     pathMatch: 'full',
