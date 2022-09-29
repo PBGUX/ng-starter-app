@@ -1,6 +1,6 @@
 {
   "name": "starter",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -30,10 +30,10 @@
     "@ngx-loading-bar/http-client": "6.0.2",
     "@ngx-loading-bar/router": "6.0.2",
     "bootstrap": "4.6.0",
-    "core-js": "3.21.1",
-    "d3": "7.3.0",
-    "jquery": "3.6.0",
-    "pb-design-system": "6.10.0",
+    "core-js": "3.25.3",
+    "d3": "7.6.1",
+    "jquery": "3.6.1",
+    "pb-design-system": "6.15.0",
     "popper.js": "1.16.1",
     "rxjs": "6.6.7",
     "topojson-client": "3.1.0",
