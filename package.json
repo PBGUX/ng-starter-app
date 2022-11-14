@@ -18,10 +18,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.38.1",
-    "@typescript-eslint/eslint-plugin-tslint": "5.38.1",
-    "@typescript-eslint/parser": "5.38.1",
-    "eslint": "8.24.0",
+    "@typescript-eslint/eslint-plugin": "5.42.1",
+    "@typescript-eslint/eslint-plugin-tslint": "5.42.1",
+    "@typescript-eslint/parser": "5.42.1",
+    "eslint": "8.27.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-typescript": "3.5.1",
     "eslint-plugin-import": "2.26.0",
@@ -31,11 +31,11 @@
     "typescript": "4.4.4"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.12",
+    "autoprefixer": "10.4.13",
     "prettier": "2.7.1",
-    "stylelint": "14.13.0",
-    "stylelint-config-prettier": "9.0.3",
-    "stylelint-config-recommended-scss": "7.0.0",
+    "stylelint": "14.15.0",
+    "stylelint-config-prettier": "9.0.4",
+    "stylelint-config-recommended-scss": "8.0.0",
     "stylelint-prettier": "2.0.0",
     "stylelint-scss": "4.3.0"
   },
