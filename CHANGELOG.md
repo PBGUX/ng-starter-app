@@ -1,5 +1,9 @@
 # Release Notes
 
+## 3.0.0-beta.1
+
+- Updated to use Bootstrap 5 and Design System 7 beta. See [pb-design-system changelog](https://github.com/PBGUX/pb-design-system/blob/7.0.0-beta.1/CHANGELOG.md) for more info
+
 ## 2.9.0 – January 3, 2022
 
 - Changed app.component.html to use new "sticky footer" as available in DS 6.8.4+
