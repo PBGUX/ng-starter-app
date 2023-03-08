@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --configuration production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -33,7 +33,7 @@
     "core-js": "3.26.1",
     "d3": "7.6.1",
     "jquery": "3.6.1",
-    "pb-design-system": "7.0.0-beta.1",
+    "pb-design-system": "6.18.2",
     "popper.js": "1.16.1",
     "rxjs": "6.6.7",
     "topojson-client": "3.1.0",
