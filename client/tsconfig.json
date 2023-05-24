@@ -10,13 +10,24 @@
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es2020",
-    "typeRoots": ["node_modules/@types"],
-    "lib": ["es2018", "dom", "esnext.intl"],
+    "target": "ES2022",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom",
+      "esnext.intl"
+    ],
     "baseUrl": "src",
     "paths": {
-      "@app/*": ["app/*"],
-      "@env/*": ["environments/*"]
-    }
+      "@app/*": [
+        "app/*"
+      ],
+      "@env/*": [
+        "environments/*"
+      ]
+    },
+    "useDefineForClassFields": false
   }
 }
