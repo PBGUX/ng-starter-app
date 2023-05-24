@@ -1,6 +1,6 @@
 {
   "name": "starter",
-  "version": "4.0.0",
+  "version": "3.0.0",
   "description": "A starter project for Angular 15 and Bootstrap 5",
   "license": "MIT",
   "scripts": {
