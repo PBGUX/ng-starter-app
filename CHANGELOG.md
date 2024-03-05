@@ -1,5 +1,16 @@
 # Release Notes
 
+## 3.1.0
+
+- Updated header to use ng-bootstrap dropdowns and collapse
+- Updated to Design System 7.1
+- Removed core-js, tslint, jquery, codelyzer
+- Installed correct poperjs/core version for ng-bootstrap
+
+## 3.0.1
+
+- Updated Angular version to 15.2.10 to fix vulnerabilities
+
 ## 3.0.0-beta.1
 
 - Updated to use Bootstrap 5 and Design System 7 beta. See [pb-design-system changelog](https://github.com/PBGUX/pb-design-system/blob/7.0.0-beta.1/CHANGELOG.md) for more info
