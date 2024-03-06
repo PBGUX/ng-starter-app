@@ -13,23 +13,23 @@ const routes: Routes = [
       {
         path: '',
         outlet: 'header',
-        component: HeaderComponent
+        component: HeaderComponent,
       },
       {
         path: '',
-        component: HomeComponent
+        component: HomeComponent,
       },
       {
         path: '',
         outlet: 'footer',
-        component: FooterComponent
-      }
-    ]
-  }
+        component: FooterComponent,
+      },
+    ],
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class HomeRoutingModule {}
