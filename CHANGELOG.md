@@ -4,8 +4,9 @@
 
 - Updated header to use ng-bootstrap dropdowns and collapse
 - Updated to Design System 7.1
-- Removed core-js, tslint, jquery, codelyzer
-- Installed correct poperjs/core version for ng-bootstrap
+- Removed core-js, tslint, jquery, codelyzer, autoprefixer
+- Installed correct popperjs/core version for ng-bootstrap
+- added `.nvmrc` set to Node 14, adjust to match your project node version
 
 ## 3.0.1
 

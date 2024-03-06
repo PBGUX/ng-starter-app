@@ -1,7 +1,6 @@
 # dependencies
 /node_modules
 /deploy
-/dspackage
 
 # IDEs and editors
 /.idea
