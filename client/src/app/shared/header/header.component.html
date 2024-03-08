@@ -3,12 +3,19 @@
     <div class="row">
       <div class="col">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler p-0"
+            type="button"
+            (click)="isMenuCollapsed = !isMenuCollapsed"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand" routerLink="/home"> Product Name </a>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngbCollapse]="isMenuCollapsed">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item divider-vertical d-none d-lg-block"></li>
 
@@ -16,21 +23,39 @@
                 <a class="nav-link" routerLink="/item1">Item 1</a>
               </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu 1</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" routerLink="">Menu Item 1</a>
-                  <a class="dropdown-item" routerLink="">Menu Item 2</a>
-                  <a class="dropdown-item" routerLink="">Menu Item 3</a>
+              <li class="nav-item" ngbDropdown>
+                <button
+                  class="nav-link"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ngbDropdownToggle
+                >
+                  Menu 1
+                </button>
+                <div aria-labelledby="navbarDropdownMenuLink" ngbDropdownMenu>
+                  <a ngbDropdownItem routerLink="">Menu Item 1</a>
+                  <a ngbDropdownItem routerLink="">Menu Item 2</a>
+                  <a ngbDropdownItem routerLink="">Menu Item 3</a>
                 </div>
               </li>
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu 2</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" routerLink="">Menu Item 1</a>
-                  <a class="dropdown-item" routerLink="">Menu Item 2</a>
-                  <a class="dropdown-item" routerLink="">Menu Item 3</a>
+              <li class="nav-item" ngbDropdown>
+                <button
+                  class="nav-link"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ngbDropdownToggle
+                >
+                  Menu 2
+                </button>
+                <div aria-labelledby="navbarDropdownMenuLink" ngbDropdownMenu>
+                  <a ngbDropdownItem routerLink="">Menu Item 1</a>
+                  <a ngbDropdownItem routerLink="">Menu Item 2</a>
+                  <a ngbDropdownItem routerLink="">Menu Item 3</a>
                 </div>
               </li>
             </ul>
@@ -38,9 +63,14 @@
             <ul class="navbar-nav navbar-right" [ngClass]="{ 'search-active': searchActive }">
               <li class="nav-item">
                 <!-- when search icon is clicked, search UI is displayed and the other menus are hidden -->
-                <a #searchLink class="nav-link d-none d-sm-block" aria-label="Search" href="" (click)="toggleSearch($event)">
+                <button
+                  #searchLink
+                  class="nav-link d-none d-sm-block"
+                  aria-label="Search"
+                  (click)="toggleSearch($event)"
+                >
                   <i class="pbi-icon-outline pbi-search d-none d-lg-inline" aria-hidden="true"></i>
-                </a>
+                </button>
 
                 <div class="nav-link d-sm-none">
                   <div class="form-group d-lg-none">
@@ -58,81 +88,107 @@
               </li>
 
               <!-- Apps menu -->
-              <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-labelledby="app-offscreen" aria-haspopup="true" aria-expanded="false">
+              <li class="nav-item" ngbDropdown>
+                <button
+                  class="nav-link"
+                  aria-labelledby="app-offscreen"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ngbDropdownToggle
+                >
                   <i class="pbi-icon-outline pbi-apps d-none d-lg-inline" aria-hidden="true"></i>
 
                   <span class="d-lg-none" id="app-offscreen">
                     <i class="pbi-icon-mini pbi-grid-4" aria-hidden="true"></i>&nbsp;Applications
                   </span>
-                </a>
-                <div class="dropdown-menu" role="menu">
+                </button>
+                <div role="menu" ngbDropdownMenu>
                   <div class="section-head hidden-xs">Your Apps</div>
-                  <a class="dropdown-item" href="">App 1</a>
-                  <a class="dropdown-item" href="">App 2</a>
-                  <a class="dropdown-item" href="">App 3</a>
-                  <a class="dropdown-item disabled" aria-disabled="true" href="">App 4</a>
+                  <a ngbDropdownItem href="">App 1</a>
+                  <a ngbDropdownItem href="">App 2</a>
+                  <a ngbDropdownItem href="">App 3</a>
+                  <a ngbDropdownItem class="disabled" aria-disabled="true" href="">App 4</a>
                 </div>
               </li>
 
               <!-- Support menu -->
-              <li class="nav-item dropdown menu-help">
-                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-labelledby="help-offscreen" aria-expanded="false" aria-haspopup="true">
+              <li class="nav-item menu-help" ngbDropdown>
+                <button
+                  class="nav-link"
+                  aria-labelledby="help-offscreen"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  ngbDropdownToggle
+                >
                   <i class="pbi-icon-outline pbi-help-circle d-none d-lg-inline" aria-hidden="true"></i>
 
                   <span class="d-lg-none" id="help-offscreen">
                     <i class="pbi-icon-mini pbi-help-circle" aria-hidden="true"></i>&nbsp;Support
                   </span>
-                </a>
+                </button>
 
-                <div class="dropdown-menu" role="menu">
+                <div role="menu" ngbDropdownMenu>
                   <div class="section-head hidden-xs">Support</div>
-                  <input type="text" class="form-control form-control-sm dropdown-search-item" placeholder="Search" aria-label="Search" />
-                  <a class="dropdown-item" href="">Support Topic 1</a>
-                  <a class="dropdown-item" href="">Support Topic 2</a>
-                  <a class="dropdown-item" href="">See All Support Topics</a>
+                  <input
+                    type="text"
+                    class="form-control form-control-sm dropdown-search-item"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <a ngbDropdownItem href="">Support Topic 1</a>
+                  <a ngbDropdownItem href="">Support Topic 2</a>
+                  <a ngbDropdownItem href="">See All Support Topics</a>
                   <div class="divider" role="separator"></div>
-                  <a class="dropdown-item" href="">
+                  <a ngbDropdownItem href="">
                     <i class="pbi-icon-mini pbi-chat-conversation" aria-hidden="true"></i> Chat
                     <span ng-if="patterns.offline">Offline</span>
                   </a>
-                  <a class="dropdown-item" href=""> <i class="pbi-icon-mini pbi-mail" aria-hidden="true"></i> Email</a>
-                  <a class="dropdown-item" href="tel:1-800-555-45678">
-                    <i class="pbi-icon-mini pbi-phone" aria-hidden="true"></i> 1-800-555-45678</a>
+                  <a ngbDropdownItem href=""> <i class="pbi-icon-mini pbi-mail" aria-hidden="true"></i> Email</a>
+                  <a ngbDropdownItem href="tel:1-800-555-45678">
+                    <i class="pbi-icon-mini pbi-phone" aria-hidden="true"></i> 1-800-555-45678</a
+                  >
                   <div class="divider" role="separator"></div>
-                  <a class="dropdown-item" href="">
-                    <i class="pbi-icon-mini pbi-download" aria-hidden="true"></i> Printer/Scale Drivers</a>
+                  <a ngbDropdownItem href="">
+                    <i class="pbi-icon-mini pbi-download" aria-hidden="true"></i> Printer/Scale Drivers</a
+                  >
                 </div>
               </li>
 
               <!-- settings menu -->
-              <li class="nav-item dropdown">
-                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-labelledby="settings-offscreen" aria-expanded="false" aria-haspopup="true">
+              <li class="nav-item" ngbDropdown>
+                <button
+                  class="nav-link"
+                  aria-labelledby="settings-offscreen"
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  ngbDropdownToggle
+                >
                   <i class="pbi-icon-outline pbi-settings d-none d-lg-inline" aria-hidden="true"></i>
 
                   <span class="d-lg-none" id="settings-offscreen">
                     <i class="pbi-icon-mini pbi-settings" aria-hidden="true"></i>&nbsp;Settings
                   </span>
-                </a>
-                <div class="dropdown-menu" role="menu">
+                </button>
+
+                <div role="menu" ngbDropdownMenu>
                   <div class="section-head">Application Settings</div>
-                  <a class="dropdown-item" href="">Carriers</a>
-                  <a class="dropdown-item" href="">Cost Accounts</a>
-                  <a class="dropdown-item" href="">Postage Payment Methods</a>
-                  <a class="dropdown-item" href="">Users</a>
+                  <a ngbDropdownItem href="">Carriers</a>
+                  <a ngbDropdownItem href="">Cost Accounts</a>
+                  <a ngbDropdownItem href="">Postage Payment Methods</a>
+                  <a ngbDropdownItem href="">Users</a>
                   <div class="section-head hidden-xs">Personal Preferences</div>
 
-                  <a class="dropdown-item" href="">Label Options</a>
-                  <a class="dropdown-item" href="">Automatic Emails</a>
-                  <a class="dropdown-item" href="">Presets</a>
-                  <a class="dropdown-item" href="">Return Label</a>
-                  <a class="dropdown-item" href="">Preferences</a>
+                  <a ngbDropdownItem href="">Label Options</a>
+                  <a ngbDropdownItem href="">Automatic Emails</a>
+                  <a ngbDropdownItem href="">Presets</a>
+                  <a ngbDropdownItem href="">Return Label</a>
+                  <a ngbDropdownItem href="">Preferences</a>
                 </div>
               </li>
 
               <!-- User menu -->
-              <li class="nav-item dropdown menu-user">
-                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-labelledby="username-offscreen" aria-expanded="false">
+              <li class="nav-item menu-user" ngbDropdown>
+                <button class="nav-link" aria-labelledby="username-offscreen" aria-expanded="false" ngbDropdownToggle>
                   <div class="d-none d-lg-block header-user-lockup">
                     <div class="header-username">Melanie Daniels</div>
                   </div>
@@ -140,13 +196,15 @@
                   <span class="d-lg-none" id="username-offscreen">
                     <i class="pbi-icon-mini pbi-user-circle" aria-hidden="true"></i>&nbsp;Melanie Daniels
                   </span>
-                </a>
+                </button>
 
-                <div class="dropdown-menu" role="menu">
-                  <a class="dropdown-item" href="">Profile <br /><span class="menu-text-small">Email, Passwords</span></a>
-                  <a class="dropdown-item" href="">Your Account <br /><span class="menu-text-small">Financials, Usage, Products, Support</span></a>
+                <div role="menu" ngbDropdownMenu>
+                  <a ngbDropdownItem href="">Profile <br /><span class="menu-text-small">Email, Passwords</span></a>
+                  <a ngbDropdownItem href=""
+                    >Your Account <br /><span class="menu-text-small">Financials, Usage, Products, Support</span></a
+                  >
                   <div class="divider" role="separator"></div>
-                  <a class="dropdown-item" href="">Sign Out</a>
+                  <a ngbDropdownItem href="">Sign Out</a>
                 </div>
               </li>
             </ul>
@@ -154,9 +212,21 @@
             <!-- new search, appears when icon in right menus (above) is clicked -->
             <div class="header-search d-none d-sm-block" [ngClass]="{ 'search-active': searchActive }">
               <form class="search-ui">
-                <input #searchInput id="search-input" class="form-control search" type="text" required="" aria-label="Search" />
+                <input
+                  #searchInput
+                  id="search-input"
+                  class="form-control search"
+                  type="text"
+                  required=""
+                  aria-label="Search"
+                />
 
-                <button class="search-clear border-0" type="reset" (click)="toggleSearch($event)" aria-label="clear search">
+                <button
+                  class="search-clear border-0"
+                  type="reset"
+                  (click)="toggleSearch($event)"
+                  aria-label="clear search"
+                >
                   <i class="pbi-icon-mini pbi-close" aria-hidden="true"></i>
                 </button>
               </form>
