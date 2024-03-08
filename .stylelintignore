@@ -1,8 +1,6 @@
 .sass-cache
 node_modules
-client/src/assets/code-snippets
 .idea
 .git
-deploy
-package
+dist
 .vscode

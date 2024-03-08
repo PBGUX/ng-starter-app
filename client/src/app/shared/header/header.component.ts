@@ -7,13 +7,15 @@ import { Component, ElementRef, HostBinding, OnInit, ViewChild } from '@angular/
 export class HeaderComponent implements OnInit {
   @HostBinding('class.site-header') true;
 
-  @ViewChild('searchLink', { read: true })
-  searchLink: ElementRef;
+  @ViewChild('searchLink')
+  searchLink: ElementRef<HTMLButtonElement>;
 
-  @ViewChild('searchInput', { read: true })
-  searchInput: ElementRef;
+  @ViewChild('searchInput')
+  searchInput: ElementRef<HTMLInputElement>;
 
   public searchActive: boolean;
+
+  isMenuCollapsed = true;
 
   constructor() {
     this.searchActive = false;
