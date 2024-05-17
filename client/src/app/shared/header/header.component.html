@@ -16,7 +16,7 @@
           <a class="navbar-brand" routerLink="/home"> Product Name </a>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngbCollapse]="isMenuCollapsed">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav me-auto">
               <li class="nav-item divider-vertical d-none d-lg-block"></li>
 
               <li class="nav-item">
@@ -129,12 +129,15 @@
 
                 <div role="menu" ngbDropdownMenu>
                   <div class="section-head hidden-xs">Support</div>
-                  <input
+                  <div class="px-3">
+                   <input
                     type="text"
-                    class="form-control form-control-sm dropdown-search-item"
+                    class="form-control form-control-sm"
                     placeholder="Search"
                     aria-label="Search"
                   />
+                  </div>
+
                   <a ngbDropdownItem href="">Support Topic 1</a>
                   <a ngbDropdownItem href="">Support Topic 2</a>
                   <a ngbDropdownItem href="">See All Support Topics</a>

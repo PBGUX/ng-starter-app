@@ -3,6 +3,13 @@
 
 - Updated Angular version to 15.2.10 to fix vulnerabilities
 
+## 16.0.0
+
+- Updated Angular version to 16
+- Updated Design System 16.0.0
+- Updated ng-bootstap version to 15
+- Updated margin and padding in header and footer components  
+
 ## 3.1.0
 
 - Updated header to use ng-bootstrap dropdowns and collapse
