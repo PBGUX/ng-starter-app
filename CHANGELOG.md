@@ -1,7 +1,4 @@
 # Release Notes
-## 3.0.1
-
-- Updated Angular version to 15.2.10 to fix vulnerabilities
 
 ## 16.0.0
 
